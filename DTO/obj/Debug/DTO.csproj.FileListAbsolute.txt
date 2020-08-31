@@ -1,0 +1,6 @@
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\bin\Debug\DTO.dll
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\bin\Debug\DTO.pdb
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\obj\Debug\DTO.dll
+C:\Users\Minh\Downloads\ASPDOTNET\BTL_ASPDOTNET\DTO\obj\Debug\DTO.pdb
