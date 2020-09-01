@@ -30,18 +30,24 @@ namespace BUS
             return dt;
         }
         
-        public void InsertProduct(string masp, string codesp, string tensp, int giasp, int slsp, string clsp, string xxsp, string anhsp, string mlsp)
+        public void InsertProduct(string masp, string codesp, string tensp, int giasp, int slsp, string clsp, string xxsp, string anhsp, string mlsp, string tt)
         {
-            string sql = "insert Product values(N'" + masp + "',N'" + codesp + "',N'" + tensp + "',N'" + giasp + "',N'" + slsp + "',N'" + clsp + "',N'" + xxsp + "',N'" + anhsp + "',N'" + mlsp + "','" + 0 + "')";
+            string sql = "insert Product values(N'" + masp + "',N'" + codesp + "',N'" + tensp + "',N'" + giasp + "',N'" + slsp + "',N'" + clsp + "',N'" + xxsp + "',N'" + anhsp + "',N'" + mlsp + "',N'" + tt + "','" + 0 + "')";
             da.ExcuteNonQuery(sql);
         }
 
-        public void UpdateProduct(string masp, string codesp, string tensp, int giasp, int slsp, string clsp, string xxsp, string anhsp, string mlsp)
+        public void UpdateProduct(string masp, string codesp, string tensp, int giasp, int slsp, string clsp, string xxsp, string anhsp, string mlsp, string tt)
         {
-            string sql = "update Product set Product_code=N'" + codesp + "',Product_name=N'" + tensp + "',Product_price=N'" + giasp + "',Product_quantity=N'" + slsp + "',Product_material=N'" + clsp + "',Product_madein=N'" + xxsp + "',Product_image=N'" + anhsp + "',Product_category_id=N'" + mlsp + "' where Product_id=N'" + masp + "'";
+            string sql = "update Product set Product_code=N'" + codesp + "',Product_name=N'" + tensp + "',Product_price=N'" + giasp + "',Product_quantity=N'" + slsp + "',Product_material=N'" + clsp + "',Product_madein=N'" + xxsp + "',Product_image=N'" + anhsp + "',Product_category_id=N'" + mlsp + "',Product_status=N'" + tt + "' where Product_id=N'" + masp + "'";
             da.ExcuteNonQuery(sql);
         }
-        
+
+        public void UpdateProductWithImageNoChance(string masp, string codesp, string tensp, int giasp, int slsp, string clsp, string xxsp, string mlsp, string tt)
+        {
+            string sql = "update Product set Product_code=N'" + codesp + "',Product_name=N'" + tensp + "',Product_price=N'" + giasp + "',Product_quantity=N'" + slsp + "',Product_material=N'" + clsp + "',Product_madein=N'" + xxsp + "',Product_category_id=N'" + mlsp + "',Product_status=N'" + tt + "' where Product_id=N'" + masp + "'";
+            da.ExcuteNonQuery(sql);
+        }
+
         public void DeleteProduct(string masp)
         {
             string sql = "delete Product where Product_id=N'" + masp + "'";

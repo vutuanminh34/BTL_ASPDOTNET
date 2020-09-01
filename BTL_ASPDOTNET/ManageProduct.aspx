@@ -74,6 +74,12 @@
                  </asp:DropDownList>
              </td>
          </tr>
+         <tr>
+             <td style="width: 189px">Tình trạng:</td>
+             <td>
+                 <asp:TextBox ID="txtTinhTrang" runat="server"></asp:TextBox>
+             </td>
+         </tr>
      </table>
     <div style="text-align:center">
         <asp:Button ID="btnNhaplai" runat="server" Text="Nhập lại" OnClick="btnNhaplai_Click" />
@@ -96,7 +102,8 @@
              <asp:ImageField DataImageUrlField="Product_image" HeaderText="Ảnh">
              </asp:ImageField>
              <asp:BoundField DataField="Product_category_id" HeaderText="Loại" />
-             <asp:CommandField ShowSelectButton="True" />
+             <asp:BoundField DataField="Product_status" HeaderText="Tình trạng" />
+             <asp:CommandField ShowSelectButton="True" SelectText="Chọn" />
          </Columns>
      </asp:GridView>
      <br />
