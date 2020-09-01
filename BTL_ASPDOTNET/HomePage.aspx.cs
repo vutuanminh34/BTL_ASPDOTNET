@@ -30,10 +30,6 @@ namespace BTL_ASPDOTNET
                 DataList1.DataSource = dt;
                 DataList1.DataBind();
             }
-
-            
-
-
         }
 
         protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)

@@ -44,7 +44,7 @@ namespace BTL_ASPDOTNET
 
                 if (Request.QueryString["id"] != null)
                 {
-                    if (Session["Buyitems"] == null)
+                    if (Session["buyitems"] == null)
                     {
 
                         dr = dt.NewRow();
@@ -74,8 +74,8 @@ namespace BTL_ASPDOTNET
                         GridView1.DataBind();
 
                         Session["buyitems"] = dt;
-                        GridView1.FooterRow.Cells[4].Text = "Total Amount";
-                        GridView1.FooterRow.Cells[5].Text = grandtotal().ToString();
+                        GridView1.FooterRow.Cells[5].Text = "Total Amount";
+                        GridView1.FooterRow.Cells[6].Text = grandtotal().ToString();
                         Response.Redirect("ShowOrder.aspx");
 
                     }
@@ -112,8 +112,8 @@ namespace BTL_ASPDOTNET
                         GridView1.DataBind();
 
                         Session["buyitems"] = dt;
-                        GridView1.FooterRow.Cells[4].Text = "Total Amount";
-                        GridView1.FooterRow.Cells[5].Text = grandtotal().ToString();
+                        GridView1.FooterRow.Cells[5].Text = "Total Amount";
+                        GridView1.FooterRow.Cells[6].Text = grandtotal().ToString();
                         Response.Redirect("ShowOrder.aspx");
 
                     }
@@ -125,8 +125,8 @@ namespace BTL_ASPDOTNET
                     GridView1.DataBind();
                     if (GridView1.Rows.Count > 0)
                     {
-                        GridView1.FooterRow.Cells[4].Text = "Total Amount";
-                        GridView1.FooterRow.Cells[5].Text = grandtotal().ToString();
+                        GridView1.FooterRow.Cells[5].Text = "Total Amount";
+                        GridView1.FooterRow.Cells[6].Text = grandtotal().ToString();
 
                     }
 
@@ -160,7 +160,6 @@ namespace BTL_ASPDOTNET
                 {
                     dt.Rows[i].Delete();
                     dt.AcceptChanges();
-                    //Label1.Text = "Item Has Been Deleted From Shopping Cart";
                     break;
 
                 }
@@ -183,7 +182,15 @@ namespace BTL_ASPDOTNET
 
         protected void btnMuahang_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ConfirmOrder.aspx");
+            if (Session["buyitems"] == null)
+            {
+                Response.Write("<script> alert('Chưa có sản phẩm nào trong giỏ hàng! Mời bạn tiếp tục mua sắm!')</script>");
+            }
+            else
+            {
+                Response.Redirect("ConfirmOrder.aspx");
+            }
+            
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

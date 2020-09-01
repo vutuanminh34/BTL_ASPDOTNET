@@ -15,6 +15,21 @@
 .contentstyle{
 width: auto;
 }
+    .auto-style1 {
+        width: 659px;
+    }
+    .auto-style2 {
+        width: 100%;
+    }
+    .auto-style3 {
+        width: 991px;
+    }
+    .auto-style4 {
+        margin-right: 0px;
+    }
+    .auto-style5 {
+        width: 92%;
+    }
 </style>
 </head>
 <script src="js/ActiveX_Template.js" language="javascript"></script>
@@ -67,12 +82,12 @@ width: auto;
         <td align="right" valign="middle" height="0" >	<div id="ddtabs" class="menu">
 	<ul>
 					<li><a href="HomePage.aspx"   ><span>Trang chủ</span></a></li><u class=menu_center ><b></b></u>
-						<li><a href="dat-hang/dat-hang-bao-chau-vn-p-24925-0.html"   ><span>Đặt hàng</span></a></li><u class=menu_center ><b></b></u>
+						<li><a href="ShowOrder.aspx"   ><span>Đặt hàng</span></a></li><u class=menu_center ><b></b></u>
 						<li><a href="BestSellerProduct.aspx"   ><span>Sản Phẩm Hot Nhất</span></a></li><u class=menu_center ><b></b></u>
 						<li><a href="TypeProduct.aspx?Category_id=N1"   ><span>Thời Trang Bé Trai</span></a></li><u class=menu_center ><b></b></u>
 						<li><a href="TypeProduct.aspx?Category_id=N2"   ><span>Thời trang bé gái</span></a></li><u class=menu_center ><b></b></u>
 						<li><a href="TypeProduct.aspx?Category_id=N3"   ><span>Quần áo Quảng Châu</span></a></li><u class=menu_center ><b></b></u>
-						<li><a href="kinh-nghiem-quan-ao-tre-em-vn-35-0.html"   ><span>Kinh nghiệm</span></a></li><u class=menu_center ><b></b></u>
+						<li><a href="News.aspx"   ><span>Kinh nghiệm</span></a></li><u class=menu_center ><b></b></u>
 						<li><a href="News.aspx"   ><span>Tin tức</span></a></li><u class=menu_center ><b></b></u>
 						
 						
@@ -92,30 +107,8 @@ width: auto;
   <tr>
     <td align="left" valign="top" class="bg_all_top tab_8_8" style="padding-top: 3px; padding-bottom: 8px;"><table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="150" valign="top" class="bg_left">	<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_1_title"><a href="dat-hang/dat-hang-bao-chau-vn-p-24925-0.html">Đặt hàng</a></td>
-		  </tr>
-		  <tr>
-			<td valign="middle" class="block_1_center">
-			
-			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-	  <td valign="middle" class="menu_s" ><a href="dat-hang/dat-hang-bao-chau-vn-p-24925-0.html">CÁCH ĐẶT HÀNG.</a></td>
-	</tr>
-			<tr>
-	  <td valign="middle" class="menu_s" ><a href="dat-hang/dang-ky-nhan-gia-si-vn-p-25831-0.html">Đăng ký</a></td>
-	</tr>
-		  </table>
-  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
+        <td width="150" valign="top" class="bg_left">	
+
 <table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
 		  <tr>
 			<td valign="middle" class="tab_8_8 block_1_title"><a href="TypeProduct.aspx?Category_id=N1">Thời Trang Bé Trai</a></td>
@@ -203,98 +196,7 @@ width: auto;
 	<td ><img height=8 alt="" src="images/spacer.gif"></td>
   </tr>
 </table>
-<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_1_title"><a href="quan-ao-gia-si-vn-37-0.html">Quần áo giá sỉ</a></td>
-		  </tr>
-		  <tr>
-			<td valign="middle" class="block_1_center">
-			
-			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-	  <td valign="middle" class="menu_s" ><a href="quan-ao-gia-si/quan-jean-nu-vn-b-181-0.html">Quần jean nữ</a></td>
-	</tr>
-		  </table>
-  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
-<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_1_title"><a href="kinh-nghiem-quan-ao-tre-em-vn-35-0.html">Kinh nghiệm</a></td>
-		  </tr>
-		  <tr>
-			<td valign="middle" class="block_1_center">
-			
-			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-	  <td valign="middle" class="menu_s" ><a href="kinh-nghiem-quan-ao-tre-em/chon-cac-loai-vai-vn-b-173-0.html">Chọn các loại Vải</a></td>
-	</tr>
-			<tr>
-	  <td valign="middle" class="menu_s" ><a href="kinh-nghiem-quan-ao-tre-em/mo-shop-can-biet-vn-b-174-0.html">Mở Shop Cần Biết</a></td>
-	</tr>
-			<tr>
-	  <td valign="middle" class="menu_s" ><a href="kinh-nghiem-quan-ao-tre-em/tin-thoi-trang-vn-b-182-0.html">Tin Thời Trang</a></td>
-	</tr>
-			<tr>
-	  <td valign="middle" class="menu_s" ><a href="kinh-nghiem-quan-ao-tre-em/goc-kinh-nghiem-vn-b-179-0.html">Góc kinh nghiệm</a></td>
-	</tr>
-			<tr>
-	  <td valign="middle" class="menu_s" ><a href="kinh-nghiem-quan-ao-tre-em/dai-ly-gia-si-vn-b-183-0.html">Đại lý giá sỉ</a></td>
-	</tr>
-		  </table>
-  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
-<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_1_title"><a href="quan-ao-tre-em-xuat-khau-vn-30-0.html">Sản Phẩm Khác</a></td>
-		  </tr>
-		  <tr>
-			<td valign="middle" class="block_1_center">
-			
-			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-	  <td valign="middle" class="menu_s" ><a href="quan-ao-tre-em-xuat-khau/tin-trong-nganh-vn-b-156-0.html">Tin Trong Ngành</a></td>
-	</tr>
-		  </table>
-  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	   <tr>
-		<td align="center" valign="top" style="padding-bottom: 8px;"><a href="index5f60.html?Acat=17&amp;s_cat=0&amp;codetype=0&amp;text_search=TD&amp;start=0&amp;lg=vn&amp;chon_service=" target=""><img src="images/photo/news/438_vn.gif" class="border_images" border=1  width="150"   ></a></td>
-	  </tr>
-	 	   <tr>
-		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/423_vn.gif" class="border_images" border=1  width="150"   ></td>
-	  </tr>
-	 	   <tr>
-		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/426_vn.gif" class="border_images" border=1  width="150"   ></td>
-	  </tr>
-	 	   <tr>
-		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/359_vn.jpg" class="border_images" border=1  width="150"   ></td>
-	  </tr>
-	 </table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-</table>
-<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
+			<table class="block_1_top" cellspacing=0 cellpadding=0 width="100%" border=0>
 		  <tr>
 			<td valign="middle" class="tab_8_8 block_1_title">THỐNG KÊ</td>
 		  </tr>
@@ -318,15 +220,38 @@ width: auto;
 			  </table></td>
 		  </tr>
 </table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+	<td ><img height=8 alt="" src="images/spacer.gif"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	   <tr>
+		<td align="center" valign="top" style="padding-bottom: 8px;"><a href="index5f60.html?Acat=17&amp;s_cat=0&amp;codetype=0&amp;text_search=TD&amp;start=0&amp;lg=vn&amp;chon_service=" target=""><img src="images/photo/news/438_vn.gif" class="border_images" border=1  width="150"   ></a></td>
+	  </tr>
+	 	   <tr>
+		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/423_vn.gif" class="border_images" border=1  width="150"   ></td>
+	  </tr>
+	 	   <tr>
+		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/426_vn.gif" class="border_images" border=1  width="150"   ></td>
+	  </tr>
+	 	   <tr>
+		<td align="center" valign="top" style="padding-bottom: 8px;"><img src="images/photo/news/359_vn.jpg" class="border_images" border=1  width="150"   ></td>
+	  </tr>
+	 </table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+</table>
+
 </td>
         <td valign="top" style="padding-left: 8px;"><table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
-        <td valign="top" style="padding-right: 8px;">
+        <td valign="top" style="padding-right: 8px;" class="auto-style1">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td class="border_page">
 				
-				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<table border="0" cellspacing="0" cellpadding="0" class="auto-style2">
 <tr>
 <td class="title_page" valign="middle">
 	<div id="content">
@@ -359,8 +284,7 @@ width: auto;
 	  <td width="15%" align="center"><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="/styles/style_002/del_cart.gif" OnClick="ImageButton1_Click" border="0"/></td>
       <td width="80%" height="25" class="cart"><asp:LinkButton ID="LinkButton1" runat="server" Text="Xóa giỏ hàng" OnClick="LinkButton1_Click" /> </td>
       </tr>
-		<tr>
-	  
+			  
 	  </table>
   </td>
 </tr>
@@ -442,70 +366,8 @@ width: auto;
 	<td ><img height=8 alt="" src="images/spacer.gif"></td>
   </tr>
 </table>
-	<table class="block_2_top" cellspacing=0 cellpadding=0 width="200" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_2_title">Facebook Like</td>
-		  </tr>
-		  <tr>
-			<td valign="top" class="block_2_center">
-					<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	  <td height="5" align="left" valign="middle"></td>
-	</tr>
-	<tr>
-	  <td height="15" align="center" valign="middle" class="tab_4_4_4_4 text_def">
-	  <iframe scrolling="no" frameborder="0" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 190px; HEIGHT: 220px; OVERFLOW: hidden; BORDER-TOP: medium none; BORDER-RIGHT: medium none" src="http://www.facebook.com/plugins/likebox.php?id=515118865169672&amp;width=190&amp;connections=10&amp;stream=false&amp;header=false&amp;height=360"></iframe>		</td>
-	</tr>
-	</table>
-
-			  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 </table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
-</table>
-	<table class="block_2_top" cellspacing=0 cellpadding=0 width="200" border=0>
-		  <tr>
-			<td valign="middle" class="tab_8_8 block_2_title">Tin tức</td>
-		  </tr>
-		  <tr>
-			<td valign="top" class="block_2_center">
-					<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	  <td height="5" align="left" valign="middle"></td>
-	</tr>
-		<tr>
-	  <td height="15" align="left" valign="middle" class="tab_4_4_4_4 tieu_de_tin_moi"><a href="tin-tuc/mua-si-quan-ao-tre-em-xuat-khau-tai-gia-lai-pleiku-gia-si.-vn-n-498-0.html"><img width="50" src="images/photo/news/498.jpg" alt="Mua sỉ quần áo trẻ em xuất khẩu tại Gia Lai, Pleiku giá sỉ." title="Mua sỉ quần áo trẻ em xuất khẩu tại Gia Lai, Pleiku giá sỉ." border="0" hspace="0" style="float:left ; margin-right: 5px;"></a><a href="tin-tuc/mua-si-quan-ao-tre-em-xuat-khau-tai-gia-lai-pleiku-gia-si.-vn-n-498-0.html" title="Mua sỉ quần áo trẻ em xuất khẩu tại Gia Lai, Pleiku giá sỉ.">Mua sỉ quần áo trẻ em xuất khẩu tại Gia Lai, Pleiku giá sỉ.</a></td>
-	</tr>
-		<tr>
-	  <td height="15" align="left" valign="middle" class="tab_4_4_4_4 tieu_de_tin_moi"><a href="tin-tuc/quan-ao-tre-em-xuat-khau-tai-quan-1-ban-gia-si-quan-1-vn-n-472-0.html"><img width="50" src="images/photo/news/472.gif" alt="Quần áo trẻ em xuất khẩu tại quận 1, bán giá sỉ quận 1" title="Quần áo trẻ em xuất khẩu tại quận 1, bán giá sỉ quận 1" border="0" hspace="0" style="float:left ; margin-right: 5px;"></a><a href="tin-tuc/quan-ao-tre-em-xuat-khau-tai-quan-1-ban-gia-si-quan-1-vn-n-472-0.html" title="Quần áo trẻ em xuất khẩu tại quận 1, bán giá sỉ quận 1">Quần áo trẻ em xuất khẩu tại quận 1, bán giá sỉ quận 1</a></td>
-	</tr>
-		<tr>
-	  <td height="15" align="left" valign="middle" class="tab_4_4_4_4 tieu_de_tin_moi"><a href="tin-tuc/quan-ao-tre-em-xuat-khau-thu-dong-ban-buon.-san-xuat-bao-chau.-vn-n-441-0.html"><img width="50" src="images/photo/news/441.jpg" alt="Quần áo trẻ em xuất khẩu Thu Đông bán buôn.-Sản xuất Bảo Châu." title="Quần áo trẻ em xuất khẩu Thu Đông bán buôn.-Sản xuất Bảo Châu." border="0" hspace="0" style="float:left ; margin-right: 5px;"></a><a href="tin-tuc/quan-ao-tre-em-xuat-khau-thu-dong-ban-buon.-san-xuat-bao-chau.-vn-n-441-0.html" title="Quần áo trẻ em xuất khẩu Thu Đông bán buôn.-Sản xuất Bảo Châu.">Quần áo trẻ em xuất khẩu Thu Đông bán buôn.-Sản xuất Bảo Châu.</a></td>
-	</tr>
-		<tr>
-	  <td height="15" align="left" valign="middle" class="tab_4_4_4_4 tieu_de_tin_moi"><a href="tin-tuc/phan-biet-quan-ao-tre-em-xuat-khau-that-voi-hang-gia-hang-nhai.-vn-n-422-0.html"><img width="50" src="images/photo/news/422.jpg" alt="Phân biệt quần áo trẻ em xuất khẩu thật với hàng giả, hàng nhái." title="Phân biệt quần áo trẻ em xuất khẩu thật với hàng giả, hàng nhái." border="0" hspace="0" style="float:left ; margin-right: 5px;"></a><a href="tin-tuc/phan-biet-quan-ao-tre-em-xuat-khau-that-voi-hang-gia-hang-nhai.-vn-n-422-0.html" title="Phân biệt quần áo trẻ em xuất khẩu thật với hàng giả, hàng nhái.">Phân biệt quần áo trẻ em xuất khẩu thật với hàng giả, hàng nhái.</a></td>
-	</tr>
-		</table>
-
-			  
-  </td>
-		  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-	<td ><img height=8 alt="" src="images/spacer.gif"></td>
-  </tr>
 </table><table width="100%" border="0" cellpadding="0" cellspacing="0">
 </table>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -523,10 +385,10 @@ width: auto;
     <tr>
     <td align="left" valign="top" class="bg_all_bottom" height="8"></td>
   </tr>
-</table><meta charset="utf-8"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+</table><meta charset="utf-8"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="auto-style4">
 	       <tr>
-	         <td valign="bottom" align="center" class="bg_bottom" style="padding-top: 12px; padding-bottom: 5px;">
-	           <table width="1000" border="0" cellspacing="0" cellpadding="0">
+	         <td valign="bottom" align="center" class="bg_bottom" style="padding-top: 12px; padding-bottom: 5px;" >
+	           <table border="0" cellspacing="0" cellpadding="0" class="auto-style3" >
                <tr>
                  <td valign="top"><table cellspacing=0 cellpadding=0 width="100%" border=0>
 		  <tr>
@@ -561,7 +423,7 @@ width: auto;
 		  </tr>
 </table>
 </td>
-                 <td width="30%" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <td width="30%" valign="top"><table border="0" cellpadding="0" cellspacing="0" class="auto-style5">
 	   <tr>
 		<td align="center" valign="top" style="padding-bottom: 5px;"><img src="images/photo/news/384_vn.jpg" class="border_images" border=1  width="400"   ></td>
 	  </tr>
