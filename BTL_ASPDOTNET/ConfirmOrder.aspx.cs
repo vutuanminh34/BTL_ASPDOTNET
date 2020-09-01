@@ -159,7 +159,7 @@ namespace BTL_ASPDOTNET
 
         public void saveaddress()
         {
-            String updatepass = "insert Orders values(N'" + Label2.Text + "', N'" + Label3.Text + "', N'" + txtTenKH.Text + "', N'" + txtDiaChi.Text + "', N'" + txtSDT.Text + "', N'" + txtChuThich.Text + "')";
+            String updatepass = "insert Orders values(N'" + Label2.Text + "', N'" + Convert.ToDateTime(Label3.Text) + "', N'" + txtTenKH.Text + "', N'" + txtDiaChi.Text + "', N'" + txtSDT.Text + "', N'" + txtChuThich.Text + "')";
             String mycon1 = "Data Source=.;Initial Catalog=QuanAoBaoChau;Integrated Security=True";
             SqlConnection s = new SqlConnection(mycon1);
             s.Open();
