@@ -68,6 +68,7 @@ namespace BTL_ASPDOTNET
             txtGia.Text = "";
             txtChatLieu.Text = "";
             txtXuatXu.Text = "";
+            txtTinhTrang.Text = "";
         }
 
         protected void btnThem_Click(object sender, EventArgs e)
