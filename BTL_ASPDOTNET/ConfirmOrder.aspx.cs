@@ -29,6 +29,7 @@ namespace BTL_ASPDOTNET
 
         public void findorderid()
         {
+            // tự động tạo mã đơn hàng, chi tiết đơn hàng
             String pass = "abcdefghijklmnopqrstuvwxyz123456789";
             Random r = new Random();
             char[] mypass = new char[5];

@@ -29,8 +29,8 @@
             <asp:BoundField DataField="totalprice" HeaderText="Tổng cộng">
             <ItemStyle HorizontalAlign="Center" />
             </asp:BoundField>
-            <asp:CommandField SelectText="Modify" ShowSelectButton="True" />
-            <asp:CommandField ShowDeleteButton="True" />
+            <asp:CommandField SelectText="Thay đổi" ShowSelectButton="True" />
+            <asp:CommandField ShowDeleteButton="True" DeleteText="Xóa" />
         </Columns>
     </asp:GridView><div style="text-align:right"><asp:Button ID="btnMuahang" runat="server" Text="Mua hàng" OnClick="btnMuahang_Click" /></div>
     

@@ -12,6 +12,7 @@ namespace BTL_ASPDOTNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // đến số hàng trong datatable để hiện thị số sản phẩm trong giỏ hàng
             DataTable dt = new DataTable();
             dt = (DataTable)Session["buyitems"];
             if (dt != null)
@@ -28,7 +29,9 @@ namespace BTL_ASPDOTNET
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
+            // xóa biến session
             Session.Remove("buyitems");
+            // refesh lại trang hiện tại
             Page.Response.Redirect(Page.Request.Url.ToString(), true);
         }
 
