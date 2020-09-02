@@ -12,23 +12,42 @@ namespace BTL_ASPDOTNET
 {
     public partial class TrangChu1 : System.Web.UI.Page
     {
-        string strCon = @"Data Source=.;Initial Catalog=QuanAoBaoChau;Integrated Security=True";
-        SqlConnection con = null;
-        SqlDataAdapter da = null;
-        DataTable dt = null;
+        static int currentposition = 0;
+        static int totalrows = 0;
 
+        private void bindata()
+        {
+            String mycon = @"Data Source=.;Initial Catalog=QuanAoBaoChau;Integrated Security=True";
+            String myquery = "select * from Product where Product_quantity > 0";
+            SqlConnection con = new SqlConnection(mycon);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = myquery;
+            cmd.Connection = con;
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            totalrows = ds.Tables[0].Rows.Count;
+            DataTable dt = ds.Tables[0];
+            PagedDataSource pg = new PagedDataSource();
+            pg.DataSource = dt.DefaultView;
+            pg.AllowPaging = true;
+            pg.CurrentPageIndex = currentposition;
+            pg.PageSize = 8;
+            Button1.Enabled = !pg.IsFirstPage;
+            Button2.Enabled = !pg.IsFirstPage;
+            Button3.Enabled = !pg.IsLastPage;
+            Button4.Enabled = !pg.IsLastPage;
+            //Binding pg to datalist
+            DataList1.DataSource = pg;//dl is datalist
+            DataList1.DataBind();
+            con.Close();
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                con = new SqlConnection(strCon);
-                con.Open();
-                string sql = "select * from Product where Product_quantity > 0";
-                da = new SqlDataAdapter(sql, con);
-                dt = new DataTable();
-                da.Fill(dt);
-                DataList1.DataSource = dt;
-                DataList1.DataBind();
+                bindata();
             }
         }
 
@@ -43,6 +62,45 @@ namespace BTL_ASPDOTNET
             {
                 Response.Redirect("DetailProduct.aspx?id=" + e.CommandArgument.ToString());
             }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            currentposition = 0;
+            bindata();
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (currentposition == 0)
+            {
+
+            }
+            else
+            {
+                currentposition = currentposition - 1;
+                bindata();
+            }
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            if (currentposition == totalrows - 1)
+            {
+
+            }
+            else
+            {
+                currentposition = currentposition + 1;
+                bindata();
+            }
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+
+            currentposition = (int)(totalrows/8);
+            bindata();
         }
     }
 }

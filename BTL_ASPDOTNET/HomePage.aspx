@@ -46,6 +46,7 @@
   </DIV></DIV></LI>
 	 </UL></DIV></DIV>
 </td>
+              </tr></table>
           </tr>
         </table>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -108,6 +109,17 @@
                   </ItemTemplate>
               </asp:DataList>
               <br />
+                  <div style="text-align:center">
+
+                      <asp:Button ID="Button1" runat="server" Text="<<" OnClick="Button1_Click" />
+&nbsp;&nbsp;
+                      <asp:Button ID="Button2" runat="server" Text="<" OnClick="Button2_Click" />
+&nbsp;&nbsp;
+                      <asp:Button ID="Button3" runat="server" Text=">" OnClick="Button3_Click" style="height: 26px" />
+&nbsp;&nbsp;
+                      <asp:Button ID="Button4" runat="server" Text=">>" OnClick="Button4_Click" />
+
+                  </div>
               
                 
      
@@ -119,6 +131,12 @@
 	<td ><img height=8 alt="" src="images/spacer.gif"></td>
   </tr>
 </table></td>
+          </tr>
+            <tr>
+              <td valign="top" style="padding-top: 5px; padding-bottom: 5px;">
+		  
+                
+                  &nbsp;</td>
           </tr>
         </table>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0">
